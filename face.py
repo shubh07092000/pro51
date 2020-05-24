@@ -26,12 +26,12 @@ train_datagen = ImageDataGenerator(
         horizontal_flip=True)
 test_datagen = ImageDataGenerator(rescale=1./255)
 train = train_datagen.flow_from_directory(
-        '/root/pro51data/pro/ML/train/',
+        '/root/final/pro/ML/train/',
         target_size=(240, 240),
         batch_size=32
         )
 test = test_datagen.flow_from_directory(
-        '/root/pro51data/pro/ML/test/',
+        '/root/final/pro/ML/test/',
         target_size=(240, 240),
         batch_size=32
         )
