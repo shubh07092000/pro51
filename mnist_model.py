@@ -9,8 +9,6 @@ from keras.layers import Flatten
 from keras.layers import Dense
 from keras_preprocessing.image import ImageDataGenerator
 from keras_preprocessing import image
-import PIL
-import keras
 from keras.utils import np_utils
 
 #datasets
